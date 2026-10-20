@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" role="img" aria-label="Friends Painting">
+  <!-- shield: navy fill, red outer line -->
+  <path d="M50 4L94 17v41c0 30-19 48-44 58C25 106 6 88 6 58V17z" fill="#1F1563" stroke="#C8202E" stroke-width="5" stroke-linejoin="round"/>
+  <!-- white inner line -->
+  <path d="M50 12l36 10.5V58c0 25-15.5 40.5-36 49.5C29.5 98.5 14 83 14 58V22.5z" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- stars above and below -->
+  <g fill="#fff">
+    <path id="s" d="M0-4l1.2 2.6 2.8.3-2.1 1.9.6 2.8L0 2.2l-2.5 1.4.6-2.8-2.1-1.9 2.8-.3z" transform="translate(30 32)"/>
+    <use href="#s" transform="translate(10 -3)"/><use href="#s" transform="translate(20 -4)"/>
+    <use href="#s" transform="translate(30 -3)"/><use href="#s" transform="translate(40 0)"/>
+    <use href="#s" transform="translate(4 52)"/><use href="#s" transform="translate(12 56)"/>
+    <use href="#s" transform="translate(20 58)"/><use href="#s" transform="translate(28 56)"/>
+    <use href="#s" transform="translate(36 52)"/>
+  </g>
+  <text x="50" y="58" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="15" fill="#fff">FRIENDS</text>
+  <text x="50" y="74" text-anchor="middle" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="12" fill="#C8202E" stroke="#fff" stroke-width=".4">PAINTING</text>
+</svg>
