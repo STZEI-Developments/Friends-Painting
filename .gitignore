@@ -1,0 +1,7 @@
+# Public repo: only the site and the README leave this machine.
+# Everything else (research, photo bank, videos, invoice, pricing, pitch, progress) stays local.
+*
+!.gitignore
+!README.md
+!docs/
+!docs/**
